@@ -1,8 +1,8 @@
 version: 0.1
 
 endpoints:
-  - name: graphql-endpoint
+  - name: http-endpoint
     port: 9090
-    type: GraphQL
+    type: REST
     networkVisibility: Public
     context: /mobile
